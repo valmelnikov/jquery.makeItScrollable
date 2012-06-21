@@ -1,0 +1,23 @@
+div.scroll_line{
+	position: absolute;
+	width: 8px;
+	border: solid 1px #AAA;
+	border-radius: 4px;
+	right: 10px;
+}
+	
+div.scroller{
+	position: absolute;
+	background: #000;
+	width: 8px;
+	height: 24px;
+	min-height: 12px;
+	cursor: pointer;
+	border-radius: 4px;
+	z-index:5;
+	top: 0px;
+}
+
+.makeItScrollable_content{
+	float:left;
+}
